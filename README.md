@@ -13,7 +13,7 @@
 Какие данные отправляются в PostgreSQL?
  - Трансформированные данные в модель данных снежинка/звезда.
 
-![Лабораторная работа №3](https://github.com/user-attachments/assets/1d46fc3b-e653-47c5-81f2-ed19abf5bc56)
+![Лабораторная работа №3](https://github.com/user-attachments/assets/d3c1544d-3fe6-4c15-b673-9aa5d27dbd76)
 
 
 Алгоритм:
