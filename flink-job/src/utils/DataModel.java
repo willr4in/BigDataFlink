@@ -4,7 +4,6 @@ import java.sql.Date;
 import java.time.LocalDate;
 
 public class DataModel {
-    // Полностью соответствует структуре CSV и требованиям БД
     public static class Customer {
         public int customerId;
         public String firstName;
