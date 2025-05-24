@@ -16,7 +16,7 @@
    docker-compose up --build -d
    ```
 
-   *   Это запустит следующие сервисы:
+*   Это запустит следующие сервисы:
     *   `Zookeeper и Kafka (для брокера сообщений)`
     *   `PostgreSQL с инициализацией схемы из init.sql`
     *   `Flink JobManager и TaskManager для обработки данных`
