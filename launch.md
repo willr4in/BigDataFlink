@@ -15,12 +15,12 @@
    ```bash
    docker-compose up --build -d
    ```
-   * Это запустит следующие сервисы:
-     * `Zookeeper и Kafka (для брокера сообщений)`
-     * `PostgreSQL с инициализацией схемы из init.sql`
-     * `Flink JobManager и TaskManager для обработки данных`
-     * `Producer (отправляет CSV-данные в Kafka топик sales-topic)`
 
+   *   Это запустит следующие сервисы:
+    *   `Zookeeper и Kafka (для брокера сообщений)`
+    *   `PostgreSQL с инициализацией схемы из init.sql`
+    *   `Flink JobManager и TaskManager для обработки данных`
+    *   `Producer (отправляет CSV-данные в Kafka топик sales-topic)`
 
 3.  **Проверка работы**
 * Откройте веб-интерфейс Flink: http://localhost:8081
