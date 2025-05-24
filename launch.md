@@ -16,7 +16,6 @@
    docker-compose up --build -d
    ```
    * Это запустит следующие сервисы:
-
      * `Zookeeper и Kafka (для брокера сообщений)`
      * `PostgreSQL с инициализацией схемы из init.sql`
      * `Flink JobManager и TaskManager для обработки данных`
@@ -31,7 +30,7 @@
 
 * Выполните SQL-запросы для проверки данных:
   ```bash
-   SELECT * FROM fact_sales LIMIT 10;
+  SELECT * FROM fact_sales LIMIT 10;
   SELECT COUNT(*) FROM dim_customer;
   SELECT COUNT(*) FROM dim_product;
   SELECT COUNT(*) FROM dim_time;
